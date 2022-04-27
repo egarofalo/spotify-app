@@ -1,0 +1,28 @@
+.page-title {
+    padding: 1rem 1.5rem;
+    background-color: $warning;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+.albums-search-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    [type="submit"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.albums-list-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
